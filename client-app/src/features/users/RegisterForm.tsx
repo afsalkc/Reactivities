@@ -22,7 +22,7 @@ export default function RegisterForm(){
         >
             {({handleSubmit, isSubmitting, errors, isValid, dirty}) => (
                 <Form className='ui form error' onSubmit={handleSubmit} autoComplete='off'>
-                    <Header as='h2' content='Sign up to Reactivities' color='teal' textAlign='center'/>
+                    <Header as='h2' content='Sign up to Activities' color='teal' textAlign='center'/>
                     <MyTextInput placeholder="Display Name" name='displayName'/>
                     <MyTextInput placeholder="User Name" name='userName'/>
                     <MyTextInput placeholder="Email" name='email'/>

@@ -16,7 +16,7 @@ export default observer(function ActivityDetailedChat() {
             </Segment>
             <Segment attached>
                 <Comment.Group>
-                    <Comment>
+                    {/* <Comment>
                         <Comment.Avatar src='/assets/user.png'/>
                         <Comment.Content>
                             <Comment.Author as='a'>Matt</Comment.Author>
@@ -42,7 +42,7 @@ export default observer(function ActivityDetailedChat() {
                                 <Comment.Action>Reply</Comment.Action>
                             </Comment.Actions>
                         </Comment.Content>
-                    </Comment>
+                    </Comment> */}
 
                     <Form reply>
                         <Form.TextArea/>
