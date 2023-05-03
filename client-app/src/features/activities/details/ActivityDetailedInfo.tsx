@@ -17,7 +17,7 @@ export default observer(function ActivityDetailedInfo({activity}: Props) {
                         <Icon size='large' color='teal' name='info'/>
                     </Grid.Column>
                     <Grid.Column width={15}>
-                        <p>{activity.description}</p>
+                        <p>{activity.description}</p> 
                     </Grid.Column>
                 </Grid>
             </Segment>
