@@ -23,7 +23,7 @@ export default observer(function ActivityDetailedInfo({activity}: Props) {
             </Segment>
             <Segment attached>
                 <Grid verticalAlign='middle'>
-                    <Grid.Column width={1}>
+                    <Grid.Column width={1}> 
                         <Icon name='calendar' size='large' color='teal'/>
                     </Grid.Column>
                     <Grid.Column width={15}>
